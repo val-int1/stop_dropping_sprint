@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "val_int1.stop_dropping_sprint.mixins.client",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"KeyBindingMixin",
+		"StickyKeyBindingMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

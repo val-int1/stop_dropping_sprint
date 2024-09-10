@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "stop_dropping_sprint",
+	"version": "1.0",
+
+	"name": "Stop Dropping Sprint",
+	"description": "A simple mod that prevents sticky keybinds to be toggled when used in key combos",
+	"authors": [ "val_int1" ],
+	"contact": {
+		"sources": "https://github.com/val-int1/stop_dropping_sprint"
+	},
+
+	"license": "BSD-3-Clause",
+	"icon": "assets/stop_dropping_sprint/icon.png",
+
+	"environment": "client",
+	"entrypoints": {},
+
+	"mixins": [
+		{ "config": "mixins/stop_dropping_sprint.client.json", "environment": "client" }
+	],
+
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": ">=1.15-alpha.19.41.a",
+		"java": "*"
+	}
+}
